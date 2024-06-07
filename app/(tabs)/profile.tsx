@@ -3,7 +3,7 @@ import { View, Text, StyleSheet } from "react-native";
 const Page = () => {
   return (
     <View style={styles.container}>
-      <Text>Page</Text>
+      <Text>Profile</Text>
     </View>
   );
 };
