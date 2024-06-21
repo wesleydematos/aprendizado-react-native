@@ -10,6 +10,7 @@ import {
   TextInput,
 } from "react-native";
 import { useHeaderHeight } from "@react-navigation/elements";
+import CategoryButtons from "@/components/CategoryButtons";
 
 const Page = () => {
   const headerHeight = useHeaderHeight();
@@ -65,6 +66,8 @@ const Page = () => {
             <Ionicons name="options" size={28} color={Colors.white} />
           </TouchableOpacity>
         </View>
+
+        <CategoryButtons />
       </View>
     </>
   );
