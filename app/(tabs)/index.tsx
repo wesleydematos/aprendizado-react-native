@@ -11,9 +11,15 @@ import {
 } from "react-native";
 import { useHeaderHeight } from "@react-navigation/elements";
 import CategoryButtons from "@/components/CategoryButtons";
+import { useState } from "react";
 
 const Page = () => {
   const headerHeight = useHeaderHeight();
+  const [category, setCategory] = useState("All");
+
+  const onCatChanged = (category: string) => {
+    setCategory(category);
+  };
 
   return (
     <>
@@ -67,7 +73,7 @@ const Page = () => {
           </TouchableOpacity>
         </View>
 
-        <CategoryButtons />
+        <CategoryButtons onCayegoryChanged={onCatChanged} />
       </View>
     </>
   );
