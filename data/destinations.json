@@ -1,0 +1,452 @@
+[
+  {
+    "id": "1",
+    "name": "Tropical Paradise Resort",
+    "image": "https://source.unsplash.com/6LtgRMPB2Ec/800x600",
+    "description": "Experience the ultimate relaxation at our exclusive beachside resort, surrounded by crystal-clear waters and pristine sands.",
+    "rating": 4.8,
+    "duration": 3,
+    "location": "Pacific Ocean",
+    "category": "Beaches"
+  },
+  {
+    "id": "2",
+    "name": "Golden Sands Beach",
+    "image": "https://source.unsplash.com/0dKQYFdcelk/800x600",
+    "description": "A perfect spot for sunbathing and beach sports with a stunning view of the sunset.",
+    "rating": 4.7,
+    "duration": 2,
+    "location": "Mediterranean Sea",
+    "category": "Beaches"
+  },
+  {
+    "id": "3",
+    "name": "Sunny Shores",
+    "image": "https://source.unsplash.com/CiUR8zISX60/800x600",
+    "description": "A family-friendly beach with a variety of activities and shallow waters.",
+    "rating": 4.6,
+    "duration": 1,
+    "location": "Caribbean",
+    "category": "Beaches"
+  },
+  {
+    "id": "4",
+    "name": "Emerald Bay",
+    "image": "https://source.unsplash.com/5VGfMwCkwzI/800x600",
+    "description": "Known for its emerald-green waters and stunning underwater marine life.",
+    "rating": 4.9,
+    "duration": 4,
+    "location": "Thailand",
+    "category": "Beaches"
+  },
+  {
+    "id": "5",
+    "name": "Crystal Cove",
+    "image": "https://source.unsplash.com/YdCXhwcr4zs/800x600",
+    "description": "A hidden gem with crystal-clear waters and a serene environment.",
+    "rating": 4.5,
+    "duration": 2,
+    "location": "Hawaii",
+    "category": "Beaches"
+  },
+  {
+    "id": "6",
+    "name": "Rocky Mountain National Park",
+    "image": "https://source.unsplash.com/wb1YCumXbqM/800x600",
+    "description": "Explore the rugged terrain and breathtaking peaks of this iconic mountain park.",
+    "rating": 4.9,
+    "duration": 3,
+    "location": "Colorado, USA",
+    "category": "Mountains"
+  },
+  {
+    "id": "7",
+    "name": "Swiss Alps Adventure",
+    "image": "https://source.unsplash.com/DI_1wn9OlZk/800x600",
+    "description": "A thrilling experience in the majestic Swiss Alps with skiing and mountaineering.",
+    "rating": 4.8,
+    "duration": 5,
+    "location": "Switzerland",
+    "category": "Mountains"
+  },
+  {
+    "id": "8",
+    "name": "Mount Fuji",
+    "image": "https://source.unsplash.com/7nrsVjvALnA/800x600",
+    "description": "An unforgettable journey to the top of Japan's iconic and revered mountain.",
+    "rating": 4.7,
+    "duration": 2,
+    "location": "Japan",
+    "category": "Mountains"
+  },
+  {
+    "id": "9",
+    "name": "Himalayan Expedition",
+    "image": "https://source.unsplash.com/sO-JmQj95ec/800x600",
+    "description": "A challenging trek through the highest mountain range in the world.",
+    "rating": 4.9,
+    "duration": 7,
+    "location": "Nepal",
+    "category": "Mountains"
+  },
+  {
+    "id": "10",
+    "name": "Patagonia Peaks",
+    "image": "https://source.unsplash.com/tvbX8E25tto/800x600",
+    "description": "Discover the untamed beauty of Patagonia with its stunning mountain landscapes.",
+    "rating": 4.8,
+    "duration": 4,
+    "location": "Chile/Argentina",
+    "category": "Mountains"
+  },
+  {
+    "id": "11",
+    "name": "New York City",
+    "image": "https://source.unsplash.com/UReDgD7Dbqc/800x600",
+    "description": "The city that never sleeps, filled with iconic landmarks and endless entertainment.",
+    "rating": 4.7,
+    "duration": 3,
+    "location": "USA",
+    "category": "Cities"
+  },
+  {
+    "id": "12",
+    "name": "Paris",
+    "image": "https://source.unsplash.com/QAwciFlS1g4/800x600",
+    "description": "The city of love and lights, offering a rich cultural experience and world-famous cuisine.",
+    "rating": 4.9,
+    "duration": 4,
+    "location": "France",
+    "category": "Cities"
+  },
+  {
+    "id": "13",
+    "name": "Tokyo",
+    "image": "https://source.unsplash.com/LUrIgxL4u_Y/800x600",
+    "description": "A bustling metropolis blending tradition and modernity, with unique culinary delights.",
+    "rating": 4.8,
+    "duration": 5,
+    "location": "Japan",
+    "category": "Cities"
+  },
+  {
+    "id": "14",
+    "name": "London",
+    "image": "https://source.unsplash.com/j7_lBZQdNXM/800x600",
+    "description": "A city steeped in history, featuring iconic landmarks and vibrant culture.",
+    "rating": 4.8,
+    "duration": 3,
+    "location": "UK",
+    "category": "Cities"
+  },
+  {
+    "id": "15",
+    "name": "Sydney",
+    "image": "https://source.unsplash.com/lkhwH1rXfC4/800x600",
+    "description": "A stunning city known for its opera house and beautiful harbor.",
+    "rating": 4.7,
+    "duration": 4,
+    "location": "Australia",
+    "category": "Cities"
+  },
+  {
+    "id": "16",
+    "name": "Amazon Rainforest",
+    "image": "https://source.unsplash.com/ZPQ5nLMtqu4/800x600",
+    "description": "Explore the world's largest rainforest, home to diverse wildlife and unique flora.",
+    "rating": 4.9,
+    "duration": 5,
+    "location": "Brazil",
+    "category": "Forests"
+  },
+  {
+    "id": "17",
+    "name": "Black Forest",
+    "image": "https://source.unsplash.com/tnCSv4pxJCk/800x600",
+    "description": "A mystical forest filled with scenic trails and charming villages.",
+    "rating": 4.7,
+    "duration": 3,
+    "location": "Germany",
+    "category": "Forests"
+  },
+  {
+    "id": "18",
+    "name": "Redwood National Park",
+    "image": "https://source.unsplash.com/ZIG5lC3ipyo/800x600",
+    "description": "Home to the tallest trees on earth, offering a serene and awe-inspiring experience.",
+    "rating": 4.9,
+    "duration": 2,
+    "location": "California, USA",
+    "category": "Forests"
+  },
+  {
+    "id": "19",
+    "name": "Borneo Rainforest",
+    "image": "https://source.unsplash.com/7nGBOi-Cr_E/800x600",
+    "description": "A biodiversity hotspot with exotic wildlife and lush greenery.",
+    "rating": 4.8,
+    "duration": 4,
+    "location": "Malaysia/Indonesia",
+    "category": "Forests"
+  },
+  {
+    "id": "20",
+    "name": "Congo Rainforest",
+    "image": "https://source.unsplash.com/MIh7fCHPq6M/800x600",
+    "description": "One of the most important wilderness areas, teeming with diverse species.",
+    "rating": 4.6,
+    "duration": 5,
+    "location": "Central Africa",
+    "category": "Forests"
+  },
+  {
+    "id": "21",
+    "name": "Lake Tahoe",
+    "image": "https://source.unsplash.com/rNxKI1Lh4hY/800x600",
+    "description": "A stunning alpine lake with clear blue waters and year-round activities.",
+    "rating": 4.8,
+    "duration": 3,
+    "location": "USA",
+    "category": "Lakes"
+  },
+  {
+    "id": "22",
+    "name": "Lake Como",
+    "image": "https://source.unsplash.com/KUmfFvK2JYs/800x600",
+    "description": "An elegant and picturesque lake surrounded by charming villages and villas.",
+    "rating": 4.9,
+    "duration": 4,
+    "location": "Italy",
+    "category": "Lakes"
+  },
+  {
+    "id": "23",
+    "name": "Lake Louise",
+    "image": "https://source.unsplash.com/WLxQvbMyfas/800x600",
+    "description": "A glacial lake renowned for its turquoise waters and stunning mountain backdrop.",
+    "rating": 4.8,
+    "duration": 2,
+    "location": "Canada",
+    "category": "Lakes"
+  },
+  {
+    "id": "24",
+    "name": "Lake Baikal",
+    "image": "https://source.unsplash.com/L6E8wJkZxuk/800x600",
+    "description": "The world's deepest and oldest freshwater lake, offering unique biodiversity.",
+    "rating": 4.7,
+    "duration": 5,
+    "location": "Russia",
+    "category": "Lakes"
+  },
+  {
+    "id": "25",
+    "name": "Lake Bled",
+    "image": "https://source.unsplash.com/W3Jl3jREpDY/800x600",
+    "description": "A picturesque lake featuring a medieval castle and a charming island church.",
+    "rating": 4.9,
+    "duration": 3,
+    "location": "Slovenia",
+    "category": "Lakes"
+  },
+  {
+    "id": "26",
+    "name": "Machu Picchu",
+    "image": "https://source.unsplash.com/Yv_9d0zSHcM/800x600",
+    "description": "An ancient Incan city set high in the Andes Mountains, known for its archaeological significance.",
+    "rating": 4.9,
+    "duration": 4,
+    "location": "Peru",
+    "category": "Historical Sites"
+  },
+  {
+    "id": "27",
+    "name": "Great Wall of China",
+    "image": "https://source.unsplash.com/L4x5QJDbJec/800x600",
+    "description": "A monumental feat of engineering stretching thousands of miles across China.",
+    "rating": 4.8,
+    "duration": 5,
+    "location": "China",
+    "category": "Historical Sites"
+  },
+  {
+    "id": "28",
+    "name": "Colosseum",
+    "image": "https://source.unsplash.com/55aC0u8nRmo/800x600",
+    "description": "A symbol of ancient Rome, this grand amphitheater once hosted gladiatorial contests.",
+    "rating": 4.7,
+    "duration": 2,
+    "location": "Italy",
+    "category": "Historical Sites"
+  },
+  {
+    "id": "29",
+    "name": "Taj Mahal",
+    "image": "https://source.unsplash.com/yjAFnkLtKY0/800x600",
+    "description": "A stunning marble mausoleum and UNESCO World Heritage Site, epitomizing Mughal architecture.",
+    "rating": 4.9,
+    "duration": 3,
+    "location": "India",
+    "category": "Historical Sites"
+  },
+  {
+    "id": "30",
+    "name": "Pyramids of Giza",
+    "image": "https://source.unsplash.com/4cqaNEvQRTg/800x600",
+    "description": "Ancient wonders of the world, these pyramids are a testament to Egypt's rich history.",
+    "rating": 4.8,
+    "duration": 3,
+    "location": "Egypt",
+    "category": "Historical Sites"
+  },
+  {
+    "id": "31",
+    "name": "Yellowstone National Park",
+    "image": "https://source.unsplash.com/hFzIoD0F_i8/800x600",
+    "description": "America's first national park, famous for its geothermal features and diverse wildlife.",
+    "rating": 4.9,
+    "duration": 4,
+    "location": "USA",
+    "category": "National Parks"
+  },
+  {
+    "id": "32",
+    "name": "Banff National Park",
+    "image": "https://source.unsplash.com/AdK3Vu70DEQ/800x600",
+    "description": "Canada's oldest national park, known for its stunning mountainous landscapes and turquoise lakes.",
+    "rating": 4.8,
+    "duration": 3,
+    "location": "Canada",
+    "category": "National Parks"
+  },
+  {
+    "id": "33",
+    "name": "Serengeti National Park",
+    "image": "https://source.unsplash.com/tAxdrgn7JlA/800x600",
+    "description": "A renowned safari destination, famous for its annual migration of over 1.5 million wildebeest.",
+    "rating": 4.9,
+    "duration": 5,
+    "location": "Tanzania",
+    "category": "National Parks"
+  },
+  {
+    "id": "34",
+    "name": "Kruger National Park",
+    "image": "https://source.unsplash.com/A3zi8WV32yM/800x600",
+    "description": "One of Africa's largest game reserves, home to the Big Five and diverse ecosystems.",
+    "rating": 4.8,
+    "duration": 4,
+    "location": "South Africa",
+    "category": "National Parks"
+  },
+  {
+    "id": "35",
+    "name": "Fiordland National Park",
+    "image": "https://source.unsplash.com/jA9Vhstl7aw/800x600",
+    "description": "A spectacular park featuring fjords, waterfalls, and dense rainforests.",
+    "rating": 4.7,
+    "duration": 3,
+    "location": "New Zealand",
+    "category": "National Parks"
+  },
+  {
+    "id": "36",
+    "name": "Maui",
+    "image": "https://source.unsplash.com/JmuyB_LibRo/800x600",
+    "description": "A tropical paradise with stunning beaches, lush landscapes, and vibrant marine life.",
+    "rating": 4.9,
+    "duration": 4,
+    "location": "Hawaii, USA",
+    "category": "Islands"
+  },
+  {
+    "id": "37",
+    "name": "Bali",
+    "image": "https://source.unsplash.com/np8u1vAfJDc/800x600",
+    "description": "A popular island destination known for its beautiful beaches, cultural heritage, and vibrant nightlife.",
+    "rating": 4.8,
+    "duration": 5,
+    "location": "Indonesia",
+    "category": "Islands"
+  },
+  {
+    "id": "38",
+    "name": "Santorini",
+    "image": "https://source.unsplash.com/7aeGgoA3pmc/800x600",
+    "description": "An iconic island featuring white-washed buildings, stunning sunsets, and volcanic beaches.",
+    "rating": 4.8,
+    "duration": 3,
+    "location": "Greece",
+    "category": "Islands"
+  },
+  {
+    "id": "39",
+    "name": "Maldives",
+    "image": "https://source.unsplash.com/ZlJc7Dbr9Lk/800x600",
+    "description": "A tropical haven with luxurious overwater bungalows and crystal-clear waters.",
+    "rating": 4.9,
+    "duration": 5,
+    "location": "Indian Ocean",
+    "category": "Islands"
+  },
+  {
+    "id": "40",
+    "name": "Galápagos Islands",
+    "image": "https://source.unsplash.com/tq8JR8BIDCQ/800x600",
+    "description": "A unique archipelago known for its endemic species and diverse ecosystems.",
+    "rating": 4.7,
+    "duration": 4,
+    "location": "Ecuador",
+    "category": "Islands"
+  },
+  {
+    "id": "41",
+    "name": "Sahara Desert",
+    "image": "https://source.unsplash.com/kJ4Pry39hEA/800x600",
+    "description": "The largest hot desert in the world, offering vast dunes and stunning oases.",
+    "rating": 4.8,
+    "duration": 3,
+    "location": "North Africa",
+    "category": "Deserts"
+  },
+  {
+    "id": "42",
+    "name": "Atacama Desert",
+    "image": "https://source.unsplash.com/qD_tG8426eQ/800x600",
+    "description": "The driest desert in the world, known for its otherworldly landscapes and starry skies.",
+    "rating": 4.9,
+    "duration": 4,
+    "location": "Chile",
+    "category": "Deserts"
+  },
+  {
+    "id": "43",
+    "name": "Gobi Desert",
+    "image": "https://source.unsplash.com/BZpZFlZk0fA/800x600",
+    "description": "A vast desert region offering a mix of sand dunes, mountains, and rich history.",
+    "rating": 4.7,
+    "duration": 5,
+    "location": "Mongolia/China",
+    "category": "Deserts"
+  },
+  {
+    "id": "44",
+    "name": "Namib Desert",
+    "image": "https://source.unsplash.com/_3I60rA0F8c/800x600",
+    "description": "An ancient desert with towering sand dunes and unique wildlife.",
+    "rating": 4.8,
+    "duration": 3,
+    "location": "Namibia",
+    "category": "Deserts"
+  },
+  {
+    "id": "45",
+    "name": "Mojave Desert",
+    "image": "https://source.unsplash.com/Uj6mMtMZykI/800x600",
+    "description": "A desert region known for its stunning Joshua Trees and dramatic landscapes.",
+    "rating": 4.6,
+    "duration": 2,
+    "location": "USA",
+    "category": "Deserts"
+  }
+]
