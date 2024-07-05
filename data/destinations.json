@@ -2,7 +2,7 @@
   {
     "id": "1",
     "name": "Tropical Paradise Resort",
-    "image": "https://source.unsplash.com/6LtgRMPB2Ec/800x600",
+    "image": "https://images.unsplash.com/photo-1472938714740-c788a1dbfa12?w=1000&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NHx8VHJvcGljYWwlMjBQYXJhZGlzZSUyMFJlc29ydHxlbnwwfHwwfHx8MA%3D%3D",
     "description": "Experience the ultimate relaxation at our exclusive beachside resort, surrounded by crystal-clear waters and pristine sands.",
     "rating": 4.8,
     "duration": 3,
@@ -12,7 +12,7 @@
   {
     "id": "2",
     "name": "Golden Sands Beach",
-    "image": "https://source.unsplash.com/0dKQYFdcelk/800x600",
+    "image": "https://images.unsplash.com/photo-1507525428034-b723cf961d3e?w=1000&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTB8fEdvbGRlbiUyMFNhbmRzJTIwQmVhY2h8ZW58MHx8MHx8fDA%3D",
     "description": "A perfect spot for sunbathing and beach sports with a stunning view of the sunset.",
     "rating": 4.7,
     "duration": 2,
@@ -22,7 +22,7 @@
   {
     "id": "3",
     "name": "Sunny Shores",
-    "image": "https://source.unsplash.com/CiUR8zISX60/800x600",
+    "image": "https://plus.unsplash.com/premium_photo-1661964071210-6944841e2e87?w=1000&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MXx8U3VubnklMjBTaG9yZXN8ZW58MHx8MHx8fDA%3D",
     "description": "A family-friendly beach with a variety of activities and shallow waters.",
     "rating": 4.6,
     "duration": 1,
@@ -32,7 +32,7 @@
   {
     "id": "4",
     "name": "Emerald Bay",
-    "image": "https://source.unsplash.com/5VGfMwCkwzI/800x600",
+    "image": "https://images.unsplash.com/photo-1571035458180-39d5ca27c721?w=1000&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NHx8RW1lcmFsZCUyMEJheXxlbnwwfHwwfHx8MA%3D%3D",
     "description": "Known for its emerald-green waters and stunning underwater marine life.",
     "rating": 4.9,
     "duration": 4,
@@ -42,7 +42,7 @@
   {
     "id": "5",
     "name": "Crystal Cove",
-    "image": "https://source.unsplash.com/YdCXhwcr4zs/800x600",
+    "image": "https://images.unsplash.com/photo-1586040399457-a6b3cbe7eb72?w=1000&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8N3x8Q3J5c3RhbCUyMENvdmV8ZW58MHx8MHx8fDA%3D",
     "description": "A hidden gem with crystal-clear waters and a serene environment.",
     "rating": 4.5,
     "duration": 2,
@@ -52,7 +52,7 @@
   {
     "id": "6",
     "name": "Rocky Mountain National Park",
-    "image": "https://source.unsplash.com/wb1YCumXbqM/800x600",
+    "image": "https://images.unsplash.com/photo-1611427157538-8d5cb31d2e07?w=1000&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8M3x8Um9ja3klMjBNb3VudGFpbiUyME5hdGlvbmFsJTIwUGFya3xlbnwwfHwwfHx8MA%3D%3D",
     "description": "Explore the rugged terrain and breathtaking peaks of this iconic mountain park.",
     "rating": 4.9,
     "duration": 3,
@@ -62,7 +62,7 @@
   {
     "id": "7",
     "name": "Swiss Alps Adventure",
-    "image": "https://source.unsplash.com/DI_1wn9OlZk/800x600",
+    "image": "https://plus.unsplash.com/premium_photo-1689084892324-fd8822cb97c1?w=1000&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NXx8U3dpc3MlMjBBbHBzJTIwQWR2ZW50dXJlfGVufDB8fDB8fHww",
     "description": "A thrilling experience in the majestic Swiss Alps with skiing and mountaineering.",
     "rating": 4.8,
     "duration": 5,
@@ -72,7 +72,7 @@
   {
     "id": "8",
     "name": "Mount Fuji",
-    "image": "https://source.unsplash.com/7nrsVjvALnA/800x600",
+    "image": "https://images.unsplash.com/photo-1578271887552-5ac3a72752bc?w=1000&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8TW91bnQlMjBGdWppfGVufDB8fDB8fHww",
     "description": "An unforgettable journey to the top of Japan's iconic and revered mountain.",
     "rating": 4.7,
     "duration": 2,
@@ -82,7 +82,7 @@
   {
     "id": "9",
     "name": "Himalayan Expedition",
-    "image": "https://source.unsplash.com/sO-JmQj95ec/800x600",
+    "image": "https://plus.unsplash.com/premium_photo-1692299547964-7c38e8ff94cf?w=1000&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MXx8SGltYWxheWFuJTIwRXhwZWRpdGlvbnxlbnwwfHwwfHx8MA%3D%3D",
     "description": "A challenging trek through the highest mountain range in the world.",
     "rating": 4.9,
     "duration": 7,
@@ -92,7 +92,7 @@
   {
     "id": "10",
     "name": "Patagonia Peaks",
-    "image": "https://source.unsplash.com/tvbX8E25tto/800x600",
+    "image": "https://images.unsplash.com/photo-1485003975062-9946bdb9dbae?w=1000&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8UGF0YWdvbmlhJTIwUGVha3N8ZW58MHx8MHx8fDA%3D",
     "description": "Discover the untamed beauty of Patagonia with its stunning mountain landscapes.",
     "rating": 4.8,
     "duration": 4,
@@ -102,7 +102,7 @@
   {
     "id": "11",
     "name": "New York City",
-    "image": "https://source.unsplash.com/UReDgD7Dbqc/800x600",
+    "image": "https://images.unsplash.com/photo-1538970272646-f61fabb3a8a2?w=1000&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTJ8fE5ldyUyMFlvcmslMjBDaXR5fGVufDB8fDB8fHww",
     "description": "The city that never sleeps, filled with iconic landmarks and endless entertainment.",
     "rating": 4.7,
     "duration": 3,
@@ -112,7 +112,7 @@
   {
     "id": "12",
     "name": "Paris",
-    "image": "https://source.unsplash.com/QAwciFlS1g4/800x600",
+    "image": "https://images.unsplash.com/photo-1511739001486-6bfe10ce785f?w=1000&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Nnx8cGFyaXN8ZW58MHx8MHx8fDA%3D",
     "description": "The city of love and lights, offering a rich cultural experience and world-famous cuisine.",
     "rating": 4.9,
     "duration": 4,
@@ -122,7 +122,7 @@
   {
     "id": "13",
     "name": "Tokyo",
-    "image": "https://source.unsplash.com/LUrIgxL4u_Y/800x600",
+    "image": "https://images.unsplash.com/photo-1540959733332-eab4deabeeaf?w=1000&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8M3x8dG9reW98ZW58MHx8MHx8fDA%3D",
     "description": "A bustling metropolis blending tradition and modernity, with unique culinary delights.",
     "rating": 4.8,
     "duration": 5,
@@ -132,7 +132,7 @@
   {
     "id": "14",
     "name": "London",
-    "image": "https://source.unsplash.com/j7_lBZQdNXM/800x600",
+    "image": "https://images.unsplash.com/photo-1526129318478-62ed807ebdf9?w=1000&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Nnx8bG9uZG9ufGVufDB8fDB8fHww",
     "description": "A city steeped in history, featuring iconic landmarks and vibrant culture.",
     "rating": 4.8,
     "duration": 3,
@@ -142,7 +142,7 @@
   {
     "id": "15",
     "name": "Sydney",
-    "image": "https://source.unsplash.com/lkhwH1rXfC4/800x600",
+    "image": "https://images.unsplash.com/photo-1528072164453-f4e8ef0d475a?w=1000&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTB8fHN5ZG5leXxlbnwwfHwwfHx8MA%3D%3D",
     "description": "A stunning city known for its opera house and beautiful harbor.",
     "rating": 4.7,
     "duration": 4,
@@ -152,7 +152,7 @@
   {
     "id": "16",
     "name": "Amazon Rainforest",
-    "image": "https://source.unsplash.com/ZPQ5nLMtqu4/800x600",
+    "image": "https://images.unsplash.com/photo-1605940169839-aedc047b0b06?w=1000&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NHx8QW1hem9uJTIwUmFpbmZvcmVzdHxlbnwwfHwwfHx8MA%3D%3D",
     "description": "Explore the world's largest rainforest, home to diverse wildlife and unique flora.",
     "rating": 4.9,
     "duration": 5,
@@ -162,7 +162,7 @@
   {
     "id": "17",
     "name": "Black Forest",
-    "image": "https://source.unsplash.com/tnCSv4pxJCk/800x600",
+    "image": "https://images.unsplash.com/photo-1587758398792-15cf9a7d0b98?w=1000&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8M3x8QmxhY2slMjBGb3Jlc3R8ZW58MHx8MHx8fDA%3D",
     "description": "A mystical forest filled with scenic trails and charming villages.",
     "rating": 4.7,
     "duration": 3,
@@ -172,7 +172,7 @@
   {
     "id": "18",
     "name": "Redwood National Park",
-    "image": "https://source.unsplash.com/ZIG5lC3ipyo/800x600",
+    "image": "https://images.unsplash.com/photo-1526349603272-e0bbdd978dc1?w=1000&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Nnx8UmVkd29vZCUyME5hdGlvbmFsJTIwUGFya3xlbnwwfHwwfHx8MA%3D%3D",
     "description": "Home to the tallest trees on earth, offering a serene and awe-inspiring experience.",
     "rating": 4.9,
     "duration": 2,
@@ -182,7 +182,7 @@
   {
     "id": "19",
     "name": "Borneo Rainforest",
-    "image": "https://source.unsplash.com/7nGBOi-Cr_E/800x600",
+    "image": "https://plus.unsplash.com/premium_photo-1687525933572-e5d144fea470?w=1000&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NXx8Qm9ybmVvJTIwUmFpbmZvcmVzdHxlbnwwfHwwfHx8MA%3D%3D",
     "description": "A biodiversity hotspot with exotic wildlife and lush greenery.",
     "rating": 4.8,
     "duration": 4,
@@ -192,7 +192,7 @@
   {
     "id": "20",
     "name": "Congo Rainforest",
-    "image": "https://source.unsplash.com/MIh7fCHPq6M/800x600",
+    "image": "https://images.unsplash.com/photo-1668541491433-e96f4059e345?w=1000&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8Q29uZ28lMjBSYWluZm9yZXN0fGVufDB8fDB8fHww",
     "description": "One of the most important wilderness areas, teeming with diverse species.",
     "rating": 4.6,
     "duration": 5,
@@ -202,7 +202,7 @@
   {
     "id": "21",
     "name": "Lake Tahoe",
-    "image": "https://source.unsplash.com/rNxKI1Lh4hY/800x600",
+    "image": "https://images.unsplash.com/photo-1552083375-1447ce886485?w=1000&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8M3x8bGFrZSUyMFRhaG9lfGVufDB8fDB8fHww",
     "description": "A stunning alpine lake with clear blue waters and year-round activities.",
     "rating": 4.8,
     "duration": 3,
@@ -212,7 +212,7 @@
   {
     "id": "22",
     "name": "Lake Como",
-    "image": "https://source.unsplash.com/KUmfFvK2JYs/800x600",
+    "image": "https://plus.unsplash.com/premium_photo-1697644693303-d6e0660a1a8d?w=1000&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MXx8bGFrZSUyMGNvbW98ZW58MHx8MHx8fDA%3D",
     "description": "An elegant and picturesque lake surrounded by charming villages and villas.",
     "rating": 4.9,
     "duration": 4,
@@ -222,7 +222,7 @@
   {
     "id": "23",
     "name": "Lake Louise",
-    "image": "https://source.unsplash.com/WLxQvbMyfas/800x600",
+    "image": "https://images.unsplash.com/photo-1575471366705-ceb08288cc65?w=1000&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8M3x8bGFrZSUyMGxvdWlzZXxlbnwwfHwwfHx8MA%3D%3D",
     "description": "A glacial lake renowned for its turquoise waters and stunning mountain backdrop.",
     "rating": 4.8,
     "duration": 2,
@@ -232,7 +232,7 @@
   {
     "id": "24",
     "name": "Lake Baikal",
-    "image": "https://source.unsplash.com/L6E8wJkZxuk/800x600",
+    "image": "https://images.unsplash.com/photo-1547994770-e5d8509b114d?w=1000&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8bGFrZSUyMGJhaWthbHxlbnwwfHwwfHx8MA%3D%3D",
     "description": "The world's deepest and oldest freshwater lake, offering unique biodiversity.",
     "rating": 4.7,
     "duration": 5,
@@ -242,7 +242,7 @@
   {
     "id": "25",
     "name": "Lake Bled",
-    "image": "https://source.unsplash.com/W3Jl3jREpDY/800x600",
+    "image": "https://images.unsplash.com/photo-1588475879026-2eb2d03d591c?w=1000&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8M3x8bGFrZSUyMGJsZWR8ZW58MHx8MHx8fDA%3D",
     "description": "A picturesque lake featuring a medieval castle and a charming island church.",
     "rating": 4.9,
     "duration": 3,
@@ -252,7 +252,7 @@
   {
     "id": "26",
     "name": "Machu Picchu",
-    "image": "https://source.unsplash.com/Yv_9d0zSHcM/800x600",
+    "image": "https://images.unsplash.com/photo-1587595431973-160d0d94add1?w=1000&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8TWFjaHUlMjBQaWNjaHV8ZW58MHx8MHx8fDA%3D",
     "description": "An ancient Incan city set high in the Andes Mountains, known for its archaeological significance.",
     "rating": 4.9,
     "duration": 4,
@@ -262,7 +262,7 @@
   {
     "id": "27",
     "name": "Great Wall of China",
-    "image": "https://source.unsplash.com/L4x5QJDbJec/800x600",
+    "image": "https://images.unsplash.com/photo-1508804185872-d7badad00f7d?w=1000&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8R3JlYXQlMjBXYWxsJTIwb2YlMjBDaGluYXxlbnwwfHwwfHx8MA%3D%3D",
     "description": "A monumental feat of engineering stretching thousands of miles across China.",
     "rating": 4.8,
     "duration": 5,
@@ -272,7 +272,7 @@
   {
     "id": "28",
     "name": "Colosseum",
-    "image": "https://source.unsplash.com/55aC0u8nRmo/800x600",
+    "image": "https://images.unsplash.com/photo-1555992828-ca4dbe41d294?w=1000&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NHx8Y29sb3NzZXVtfGVufDB8fDB8fHww",
     "description": "A symbol of ancient Rome, this grand amphitheater once hosted gladiatorial contests.",
     "rating": 4.7,
     "duration": 2,
@@ -282,7 +282,7 @@
   {
     "id": "29",
     "name": "Taj Mahal",
-    "image": "https://source.unsplash.com/yjAFnkLtKY0/800x600",
+    "image": "https://images.unsplash.com/photo-1564507592333-c60657eea523?w=1000&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8dGFqJTIwTWFoYWx8ZW58MHx8MHx8fDA%3D",
     "description": "A stunning marble mausoleum and UNESCO World Heritage Site, epitomizing Mughal architecture.",
     "rating": 4.9,
     "duration": 3,
@@ -292,7 +292,7 @@
   {
     "id": "30",
     "name": "Pyramids of Giza",
-    "image": "https://source.unsplash.com/4cqaNEvQRTg/800x600",
+    "image": "https://images.unsplash.com/photo-1568322445389-f64ac2515020?w=1000&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8UHlyYW1pZHMlMjBvZiUyMEdpemF8ZW58MHx8MHx8fDA%3D",
     "description": "Ancient wonders of the world, these pyramids are a testament to Egypt's rich history.",
     "rating": 4.8,
     "duration": 3,
@@ -302,7 +302,7 @@
   {
     "id": "31",
     "name": "Yellowstone National Park",
-    "image": "https://source.unsplash.com/hFzIoD0F_i8/800x600",
+    "image": "https://images.unsplash.com/photo-1629985692757-48648f4f1fc1?w=1000&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8M3x8WWVsbG93c3RvbmUlMjBOYXRpb25hbCUyMFBhcmt8ZW58MHx8MHx8fDA%3D",
     "description": "America's first national park, famous for its geothermal features and diverse wildlife.",
     "rating": 4.9,
     "duration": 4,
@@ -312,7 +312,7 @@
   {
     "id": "32",
     "name": "Banff National Park",
-    "image": "https://source.unsplash.com/AdK3Vu70DEQ/800x600",
+    "image": "https://images.unsplash.com/photo-1511525499366-bc3f823bacb7?w=1000&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Nnx8YmFuZmYlMjBOYXRpb25hbCUyMFBhcmt8ZW58MHx8MHx8fDA%3D",
     "description": "Canada's oldest national park, known for its stunning mountainous landscapes and turquoise lakes.",
     "rating": 4.8,
     "duration": 3,
@@ -322,7 +322,7 @@
   {
     "id": "33",
     "name": "Serengeti National Park",
-    "image": "https://source.unsplash.com/tAxdrgn7JlA/800x600",
+    "image": "https://images.unsplash.com/photo-1528275646751-ff237d1cd935?w=1000&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8U2VyZW5nZXRpJTIwTmF0aW9uYWwlMjBQYXJrfGVufDB8fDB8fHww",
     "description": "A renowned safari destination, famous for its annual migration of over 1.5 million wildebeest.",
     "rating": 4.9,
     "duration": 5,
@@ -332,7 +332,7 @@
   {
     "id": "34",
     "name": "Kruger National Park",
-    "image": "https://source.unsplash.com/A3zi8WV32yM/800x600",
+    "image": "https://images.unsplash.com/photo-1612703252506-e2f1f674752d?w=1000&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8S3J1Z2VyJTIwTmF0aW9uYWwlMjBQYXJrfGVufDB8fDB8fHww",
     "description": "One of Africa's largest game reserves, home to the Big Five and diverse ecosystems.",
     "rating": 4.8,
     "duration": 4,
@@ -342,7 +342,7 @@
   {
     "id": "35",
     "name": "Fiordland National Park",
-    "image": "https://source.unsplash.com/jA9Vhstl7aw/800x600",
+    "image": "https://images.unsplash.com/photo-1703664872019-f40bf1791392?w=1000&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTV8fEZpb3JkbGFuZCUyME5hdGlvbmFsJTIwUGFya3xlbnwwfHwwfHx8MA%3D%3D",
     "description": "A spectacular park featuring fjords, waterfalls, and dense rainforests.",
     "rating": 4.7,
     "duration": 3,
@@ -352,7 +352,7 @@
   {
     "id": "36",
     "name": "Maui",
-    "image": "https://source.unsplash.com/JmuyB_LibRo/800x600",
+    "image": "https://images.unsplash.com/photo-1491597779497-038f35d6beb2?w=1000&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8TWF1aSUyMGlzbGFuZHxlbnwwfHwwfHx8MA%3D%3D",
     "description": "A tropical paradise with stunning beaches, lush landscapes, and vibrant marine life.",
     "rating": 4.9,
     "duration": 4,
@@ -362,7 +362,7 @@
   {
     "id": "37",
     "name": "Bali",
-    "image": "https://source.unsplash.com/np8u1vAfJDc/800x600",
+    "image": "https://images.unsplash.com/photo-1539367628448-4bc5c9d171c8?w=1000&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8YmFsaSUyMGlzbGFuZHxlbnwwfHwwfHx8MA%3D%3D",
     "description": "A popular island destination known for its beautiful beaches, cultural heritage, and vibrant nightlife.",
     "rating": 4.8,
     "duration": 5,
@@ -372,7 +372,7 @@
   {
     "id": "38",
     "name": "Santorini",
-    "image": "https://source.unsplash.com/7aeGgoA3pmc/800x600",
+    "image": "https://images.unsplash.com/photo-1714308995494-8690e73cd8c7?w=1000&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8U2FudG9yaW5pJTIwaXNsYW5kfGVufDB8fDB8fHww",
     "description": "An iconic island featuring white-washed buildings, stunning sunsets, and volcanic beaches.",
     "rating": 4.8,
     "duration": 3,
@@ -382,7 +382,7 @@
   {
     "id": "39",
     "name": "Maldives",
-    "image": "https://source.unsplash.com/ZlJc7Dbr9Lk/800x600",
+    "image": "https://images.unsplash.com/photo-1691853735557-8d0605b9fa13?w=1000&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8OHx8bWFsZGl2ZXMlMjBpc2xhbmR8ZW58MHx8MHx8fDA%3D",
     "description": "A tropical haven with luxurious overwater bungalows and crystal-clear waters.",
     "rating": 4.9,
     "duration": 5,
@@ -392,7 +392,7 @@
   {
     "id": "40",
     "name": "Galápagos Islands",
-    "image": "https://source.unsplash.com/tq8JR8BIDCQ/800x600",
+    "image": "https://images.unsplash.com/photo-1652571134412-34c21098ea1f?w=1000&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTF8fEdhbCVDMyVBMXBhZ29zJTIwaXNsYW5kfGVufDB8fDB8fHww",
     "description": "A unique archipelago known for its endemic species and diverse ecosystems.",
     "rating": 4.7,
     "duration": 4,
@@ -402,7 +402,7 @@
   {
     "id": "41",
     "name": "Sahara Desert",
-    "image": "https://source.unsplash.com/kJ4Pry39hEA/800x600",
+    "image": "https://images.unsplash.com/photo-1489573280374-2e193c63726c?w=1000&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8U2FoYXJhJTIwRGVzZXJ0fGVufDB8fDB8fHww",
     "description": "The largest hot desert in the world, offering vast dunes and stunning oases.",
     "rating": 4.8,
     "duration": 3,
@@ -412,7 +412,7 @@
   {
     "id": "42",
     "name": "Atacama Desert",
-    "image": "https://source.unsplash.com/qD_tG8426eQ/800x600",
+    "image": "https://images.unsplash.com/photo-1510940402025-b2c518ff4085?w=1000&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8YXRhY2FtYSUyMERlc2VydHxlbnwwfHwwfHx8MA%3D%3D",
     "description": "The driest desert in the world, known for its otherworldly landscapes and starry skies.",
     "rating": 4.9,
     "duration": 4,
@@ -422,7 +422,7 @@
   {
     "id": "43",
     "name": "Gobi Desert",
-    "image": "https://source.unsplash.com/BZpZFlZk0fA/800x600",
+    "image": "https://images.unsplash.com/photo-1561991123-455af4470ffd?w=1000&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8Z29iaSUyMERlc2VydHxlbnwwfHwwfHx8MA%3D%3D",
     "description": "A vast desert region offering a mix of sand dunes, mountains, and rich history.",
     "rating": 4.7,
     "duration": 5,
@@ -432,7 +432,7 @@
   {
     "id": "44",
     "name": "Namib Desert",
-    "image": "https://source.unsplash.com/_3I60rA0F8c/800x600",
+    "image": "https://images.unsplash.com/photo-1551176601-c55f81516ba9?w=1000&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NHx8bmFtaWIlMjBEZXNlcnR8ZW58MHx8MHx8fDA%3D",
     "description": "An ancient desert with towering sand dunes and unique wildlife.",
     "rating": 4.8,
     "duration": 3,
@@ -442,7 +442,7 @@
   {
     "id": "45",
     "name": "Mojave Desert",
-    "image": "https://source.unsplash.com/Uj6mMtMZykI/800x600",
+    "image": "https://images.unsplash.com/photo-1490358930084-2d26f21dc211?w=1000&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTB8fG1vamF2JTIwRGVzZXJ0fGVufDB8fDB8fHww",
     "description": "A desert region known for its stunning Joshua Trees and dramatic landscapes.",
     "rating": 4.6,
     "duration": 2,
