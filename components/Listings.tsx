@@ -1,11 +1,19 @@
-import { View, Text, StyleSheet, FlatList, ListRenderItem } from "react-native";
+import {
+  View,
+  Text,
+  StyleSheet,
+  FlatList,
+  Image,
+  ListRenderItem,
+  TouchableOpacity,
+} from "react-native";
 import React from "react";
 
 type Props = {
   listings: IPlace[];
 };
 
-interface IPlace {
+export interface IPlace {
   id: string;
   category: string;
   description: string;
@@ -19,15 +27,26 @@ interface IPlace {
 export default function Listings({ listings }: Props) {
   const renderItems: ListRenderItem<IPlace> = ({ item }) => {
     return (
-      <View>
-        <Text>{item.name}</Text>
-      </View>
+      <TouchableOpacity>
+        <View>
+          <Image
+            source={{ uri: item.image }}
+            style={{ width: 200, height: 200 }}
+          />
+          <Text>{item.name}</Text>
+        </View>
+      </TouchableOpacity>
     );
   };
 
   return (
     <View>
-      <FlatList data={listings} renderItem={renderItems} />
+      <FlatList
+        data={listings}
+        renderItem={renderItems}
+        horizontal
+        showsHorizontalScrollIndicator={false}
+      />
     </View>
   );
 }
