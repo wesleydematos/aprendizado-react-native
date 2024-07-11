@@ -1,0 +1,37 @@
+[
+  {
+    "id": "1",
+    "name": "Holiday Travel Agency",
+    "image": "https://images.unsplash.com/photo-1641676254053-20d932aa86ab?w=1000&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8OHx8SG9saWRheSUyMFRyYXZlbCUyMEFnZW5jeXxlbnwwfHwwfHx8MA%3D%3D",
+    "rating": 4.7,
+    "reviews": 1450
+  },
+  {
+    "id": "2",
+    "name": "Happy Tour Planners",
+    "image": "https://images.unsplash.com/photo-1507525428034-b723cf961d3e?w=1000&auto=format&fit=crop&q=60&ixlib=rb-4.0.3",
+    "rating": 4.8,
+    "reviews": 658
+  },
+  {
+    "id": "3",
+    "name": "Royal Tour & Travels",
+    "image": "https://images.unsplash.com/photo-1530521954074-e64f6810b32d?w=1000&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8M3x8VHJhdmVsJTIwQWdlbmN5fGVufDB8fDB8fHww",
+    "rating": 4.9,
+    "reviews": 580
+  },
+  {
+    "id": "4",
+    "name": "Sunny Vacations",
+    "image": "https://images.unsplash.com/photo-1493558103817-58b2924bce98?w=1000&auto=format&fit=crop&q=60&ixlib=rb-4.0.3",
+    "rating": 4.6,
+    "reviews": 1320
+  },
+  {
+    "id": "5",
+    "name": "Adventure Awaits",
+    "image": "https://images.unsplash.com/photo-1516546453174-5e1098a4b4af?w=1000&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NHx8VHJhdmVsJTIwQWdlbmN5fGVufDB8fDB8fHww",
+    "rating": 4.5,
+    "reviews": 980
+  }
+]
