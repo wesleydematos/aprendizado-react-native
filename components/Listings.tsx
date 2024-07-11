@@ -7,12 +7,14 @@ import {
   ListRenderItem,
   TouchableOpacity,
 } from "react-native";
-import React from "react";
+import React, { useEffect, useState } from "react";
 import Colors from "@/constants/Colors";
 import { FontAwesome5, Ionicons } from "@expo/vector-icons";
+import { Link } from "expo-router";
 
 type Props = {
   listings: IPlace[];
+  category: string;
 };
 
 export interface IPlace {
@@ -27,40 +29,52 @@ export interface IPlace {
   price: number;
 }
 
-export default function Listings({ listings }: Props) {
+export default function Listings({ listings, category }: Props) {
+  const [loading, setLoading] = useState(false);
+
+  useEffect(() => {
+    setLoading(true);
+
+    setTimeout(() => {
+      setLoading(false);
+    }, 200);
+  }, [category]);
+
   const renderItems: ListRenderItem<IPlace> = ({ item }) => {
     return (
-      <TouchableOpacity>
-        <View style={styles.item}>
-          <Image source={{ uri: item.image }} style={styles.image} />
-          <View style={styles.bookmarks}>
-            <Ionicons name="bookmarks" size={20} color={Colors.white} />
-          </View>
-          <Text style={styles.itemTxt} numberOfLines={1} ellipsizeMode="tail">
-            {item.name}
-          </Text>
-          <View
-            style={{ flexDirection: "row", justifyContent: "space-between" }}
-          >
-            <View style={{ flexDirection: "row", alignItems: "center" }}>
-              <FontAwesome5
-                name="map-marker-alt"
-                size={18}
-                color={Colors.primaryColor}
-              />
-              <Text style={styles.itemLocationTxt}>{item.location}</Text>
+      <Link href={`/listing/${item.id}`} asChild>
+        <TouchableOpacity>
+          <View style={styles.item}>
+            <Image source={{ uri: item.image }} style={styles.image} />
+            <View style={styles.bookmarks}>
+              <Ionicons name="bookmarks" size={20} color={Colors.white} />
             </View>
-            <Text style={styles.itemPriceTxt}>${item.price}</Text>
+            <Text style={styles.itemTxt} numberOfLines={1} ellipsizeMode="tail">
+              {item.name}
+            </Text>
+            <View
+              style={{ flexDirection: "row", justifyContent: "space-between" }}
+            >
+              <View style={{ flexDirection: "row", alignItems: "center" }}>
+                <FontAwesome5
+                  name="map-marker-alt"
+                  size={18}
+                  color={Colors.primaryColor}
+                />
+                <Text style={styles.itemLocationTxt}>{item.location}</Text>
+              </View>
+              <Text style={styles.itemPriceTxt}>${item.price}</Text>
+            </View>
           </View>
-        </View>
-      </TouchableOpacity>
+        </TouchableOpacity>
+      </Link>
     );
   };
 
   return (
     <View>
       <FlatList
-        data={listings}
+        data={loading ? [] : listings}
         renderItem={renderItems}
         horizontal
         showsHorizontalScrollIndicator={false}
