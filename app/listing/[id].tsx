@@ -129,6 +129,18 @@ export default function ListingDetails() {
           <Text style={styles.listingDetails}>{listing?.description}</Text>
         </View>
       </View>
+
+      <View style={styles.footer}>
+        <TouchableOpacity
+          onPress={() => {}}
+          style={[styles.footerBtn, styles.footerBookBtn]}
+        >
+          <Text style={styles.footerBtnTxt}>Book Now</Text>
+        </TouchableOpacity>
+        <TouchableOpacity onPress={() => {}} style={styles.footerBtn}>
+          <Text style={styles.footerBtnTxt}>${listing?.price}</Text>
+        </TouchableOpacity>
+      </View>
     </>
   );
 }
@@ -188,5 +200,31 @@ const styles = StyleSheet.create({
     lineHeight: 25,
     color: Colors.black,
     letterSpacing: 0.5,
+  },
+  footer: {
+    position: "absolute",
+    flexDirection: "row",
+    bottom: 0,
+    padding: 20,
+    paddingBottom: 30,
+    width: width,
+  },
+  footerBtn: {
+    flex: 1,
+    alignItems: "center",
+    backgroundColor: Colors.black,
+    padding: 20,
+    borderRadius: 10,
+  },
+  footerBookBtn: {
+    flex: 2,
+    backgroundColor: Colors.primaryColor,
+    marginRight: 20,
+  },
+  footerBtnTxt: {
+    color: Colors.white,
+    fontSize: 16,
+    fontWeight: "600",
+    textTransform: "uppercase",
   },
 });
