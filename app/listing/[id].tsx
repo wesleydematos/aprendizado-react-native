@@ -5,6 +5,7 @@ import {
   Image,
   Dimensions,
   TouchableOpacity,
+  ScrollView,
 } from "react-native";
 import React from "react";
 import { Stack, useLocalSearchParams, useRouter } from "expo-router";
@@ -17,6 +18,13 @@ import {
   Ionicons,
 } from "@expo/vector-icons";
 import Colors from "@/constants/Colors";
+import Animated, {
+  interpolate,
+  SlideInDown,
+  useAnimatedRef,
+  useAnimatedStyle,
+  useScrollViewOffset,
+} from "react-native-reanimated";
 
 const { width } = Dimensions.get("window");
 const IMG_HEIGHT = 300;
@@ -26,6 +34,29 @@ export default function ListingDetails() {
   const listing = (listingData as IPlace[]).find((item) => item.id == id);
 
   const router = useRouter();
+
+  const scrollRef = useAnimatedRef<Animated.ScrollView>();
+  const scrollOffset = useScrollViewOffset(scrollRef);
+  const imageAnimatedStyle = useAnimatedStyle(() => {
+    return {
+      transform: [
+        {
+          translateY: interpolate(
+            scrollOffset.value,
+            [-IMG_HEIGHT, 0, IMG_HEIGHT],
+            [-IMG_HEIGHT / 2, 0, IMG_HEIGHT * 0.75]
+          ),
+        },
+        {
+          scale: interpolate(
+            scrollOffset.value,
+            [-IMG_HEIGHT, 0, IMG_HEIGHT],
+            [2, 1, 1]
+          ),
+        },
+      ],
+    };
+  });
 
   return (
     <>
@@ -76,61 +107,71 @@ export default function ListingDetails() {
         }}
       />
       <View style={styles.container}>
-        <Image source={{ uri: listing?.image }} style={styles.image} />
-        <View style={styles.contentWrapper}>
-          <Text style={styles.listingName}>{listing?.name}</Text>
-          <View style={styles.listingLocationWrapper}>
-            <FontAwesome5
-              name="map-marker-alt"
-              size={18}
-              color={Colors.primaryColor}
-            />
-            <Text style={styles.listingLocationTxt}>{listing?.location}</Text>
+        <Animated.ScrollView
+          ref={scrollRef}
+          contentContainerStyle={{ paddingBottom: 150 }}
+        >
+          <Animated.Image
+            source={{ uri: listing?.image }}
+            style={[styles.image, imageAnimatedStyle]}
+          />
+          <View style={styles.contentWrapper}>
+            <Text style={styles.listingName}>{listing?.name}</Text>
+            <View style={styles.listingLocationWrapper}>
+              <FontAwesome5
+                name="map-marker-alt"
+                size={18}
+                color={Colors.primaryColor}
+              />
+              <Text style={styles.listingLocationTxt}>{listing?.location}</Text>
+            </View>
+
+            <View style={styles.highlightWrapper}>
+              <View style={{ flexDirection: "row" }}>
+                <View style={styles.highlightIcon}>
+                  <Ionicons name="time" size={18} color={Colors.primaryColor} />
+                </View>
+                <View>
+                  <Text style={styles.highlightTxt}>Duration</Text>
+                  <Text style={styles.highlightTxtVal}>
+                    {listing?.duration} days
+                  </Text>
+                </View>
+              </View>
+
+              <View style={{ flexDirection: "row" }}>
+                <View style={styles.highlightIcon}>
+                  <FontAwesome
+                    name="users"
+                    size={18}
+                    color={Colors.primaryColor}
+                  />
+                </View>
+                <View>
+                  <Text style={styles.highlightTxt}>Person</Text>
+                  <Text style={styles.highlightTxtVal}>
+                    {listing?.duration}
+                  </Text>
+                </View>
+              </View>
+
+              <View style={{ flexDirection: "row" }}>
+                <View style={styles.highlightIcon}>
+                  <Ionicons name="star" size={18} color={Colors.primaryColor} />
+                </View>
+                <View>
+                  <Text style={styles.highlightTxt}>Rating</Text>
+                  <Text style={styles.highlightTxtVal}>{listing?.rating}</Text>
+                </View>
+              </View>
+            </View>
+
+            <Text style={styles.listingDetails}>{listing?.description}</Text>
           </View>
-
-          <View style={styles.highlightWrapper}>
-            <View style={{ flexDirection: "row" }}>
-              <View style={styles.highlightIcon}>
-                <Ionicons name="time" size={18} color={Colors.primaryColor} />
-              </View>
-              <View>
-                <Text style={styles.highlightTxt}>Duration</Text>
-                <Text style={styles.highlightTxtVal}>
-                  {listing?.duration} days
-                </Text>
-              </View>
-            </View>
-
-            <View style={{ flexDirection: "row" }}>
-              <View style={styles.highlightIcon}>
-                <FontAwesome
-                  name="users"
-                  size={18}
-                  color={Colors.primaryColor}
-                />
-              </View>
-              <View>
-                <Text style={styles.highlightTxt}>Person</Text>
-                <Text style={styles.highlightTxtVal}>{listing?.duration}</Text>
-              </View>
-            </View>
-
-            <View style={{ flexDirection: "row" }}>
-              <View style={styles.highlightIcon}>
-                <Ionicons name="star" size={18} color={Colors.primaryColor} />
-              </View>
-              <View>
-                <Text style={styles.highlightTxt}>Rating</Text>
-                <Text style={styles.highlightTxtVal}>{listing?.rating}</Text>
-              </View>
-            </View>
-          </View>
-
-          <Text style={styles.listingDetails}>{listing?.description}</Text>
-        </View>
+        </Animated.ScrollView>
       </View>
 
-      <View style={styles.footer}>
+      <Animated.View style={styles.footer} entering={SlideInDown.delay(200)}>
         <TouchableOpacity
           onPress={() => {}}
           style={[styles.footerBtn, styles.footerBookBtn]}
@@ -140,7 +181,7 @@ export default function ListingDetails() {
         <TouchableOpacity onPress={() => {}} style={styles.footerBtn}>
           <Text style={styles.footerBtnTxt}>${listing?.price}</Text>
         </TouchableOpacity>
-      </View>
+      </Animated.View>
     </>
   );
 }
@@ -155,7 +196,8 @@ const styles = StyleSheet.create({
     height: IMG_HEIGHT,
   },
   contentWrapper: {
-    padding: 26,
+    padding: 20,
+    backgroundColor: Colors.white,
   },
   listingName: {
     fontSize: 24,
