@@ -31,14 +31,20 @@ export interface IPlace {
 
 export default function Listings({ listings, category }: Props) {
   const [loading, setLoading] = useState(false);
+  const [filteredListings, setFilteredListings] = useState<IPlace[]>([]);
 
   useEffect(() => {
     setLoading(true);
+    const filteredData =
+      category === "All"
+        ? listings
+        : listings.filter((item) => item.category === category);
 
     setTimeout(() => {
+      setFilteredListings(filteredData);
       setLoading(false);
     }, 200);
-  }, [category]);
+  }, [category, listings]);
 
   const renderItems: ListRenderItem<IPlace> = ({ item }) => {
     return (
@@ -74,11 +80,13 @@ export default function Listings({ listings, category }: Props) {
   return (
     <View>
       <FlatList
-        data={loading ? [] : listings}
+        data={loading ? [] : filteredListings}
         renderItem={renderItems}
         horizontal
         showsHorizontalScrollIndicator={false}
+        keyExtractor={(item) => item.id}
       />
+      {loading && <Text>Loading...</Text>}
     </View>
   );
 }
